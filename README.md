@@ -28,7 +28,7 @@ Display the image until the loop gets over.
 Rotate the image using cv2.rotate(smaller_frame,cv2.ROTATE_180).
 
 ## Program:
-``` Python
+Python
 ### Developed By:IYYANAR S
 ### Register No:212222240036
 
