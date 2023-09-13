@@ -34,34 +34,6 @@ Anaconda - Python 3.7
 
 ## i) Write the frame as JPG file
 
-
-
-
-## ii) Display the video
-
-
-
-
-## iii) Display the video by resizing the window
-
-
-
-
-
-## iv) Rotate and display the video
-
-
-
-
-
-
-
-
-
-```
-## Output
-
-### i) Write the frame as JPG image
 ```
 import cv2
 viedoCaptureObject=cv2.VideoCapture(0)
@@ -72,7 +44,10 @@ while(True):
 viedoCaptureObject.release()
 cv2.destroyAllWindows()
 ```
-### ii) Display the video
+
+
+## ii) Display the video
+
 ```
 import numpy as np
 import cv2
@@ -86,7 +61,8 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
-### iii) Display the video by resizing the window
+
+## iii) Display the video by resizing the window
 ```
 import numpy as np
 import cv2
@@ -108,7 +84,10 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
-### iv) Rotate and display the video
+
+
+
+## iv) Rotate and display the video
 ```
 import numpy as np
 import cv2
@@ -129,6 +108,8 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 ```
+
+## Output
 ### i) Write the frame as JPG image
 ![DIP 21](https://github.com/Iyyanar22009120/Image-Acquisition-from-Web-Cameraa/assets/118680259/05486d75-1f72-4274-9772-ab4e71a481ca)
 ### ii) Display the video
